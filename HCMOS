@@ -1,0 +1,12 @@
+'''HCMOS''' ("high-speed [[CMOS]]") is the set of specifications for electrical ratings and characteristics, forming the 74HC00 family, a part of the [[7400 series]] of [[integrated circuits]].<ref name="philips">[http://www.standardics.nxp.com/support/documents/logic/pdf/family.hcmos.specification.pdf HCMOS family characteristics]  {{webarchive|url=https://web.archive.org/web/20080720001502/http://www.standardics.nxp.com/support/documents/logic/pdf/family.hcmos.specification.pdf |date=2008-07-20 }}, Philips Semiconductors, March 1988</ref>
+
+The 74HC00 family followed, and improved upon, the 74C00 series (which provided an alternative CMOS logic family to the [[4000 series]] but retained the part number scheme and pinouts of the standard [[7400 series]] (especially the 74LS00 series) .
+    
+Some specifications include:<ref name="philips" />
+*DC supply voltage
+*DC input voltage range
+*DC output voltage range
+*input rise and fall times
+*output rise and fall times
+
+HCMOS also stands for ''high-density CMOS''.{{cn|date=February 2015}}  The term was used to describe [[microprocessors]], and other complex integrated circuits, which use a smaller manufacturing processes, producing more transistors per area. The [[Freescale 68HC11]] is an example of a popular HCMOS [[microcontroller]].<ref name="thefreedictionary">[http://acronyms.thefreedictionary.com/HCMOS HCMOS acronyms], thefreedictionary.com</ref><ref>[http://www.motorola-datasheet.com/hc11.htm HC11 Datasheet] {{Dead link|date=May 2017}}: Motorola's HC11: HCMOS microcontroller family</ref>
