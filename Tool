@@ -1,0 +1,27 @@
+{{Use dmy dates|date=October 2019}}
+{{short description|Fifth and current version of hypertext markup language}}
+{{Infobox file format
+| name      = HTML5<br><small>(HyperText Markup Language)</small>
+| icon      = HTML5-logo.svg
+| icon_size = 120px
+| caption   = HTML5 official logo, introduced on 18 January 2011
+| extension = <code>.html</code>, <code>.htm</code>
+| mime      = text/html
+| developer = [[W3C]]
+| released  = {{start date and age|df=y|2014|10|28|p=yes|br=yes}}<ref name=finalars>{{cite web |url= https://arstechnica.com/information-technology/2014/10/html5-specification-finalized-squabbling-over-who-writes-the-specs-continues/ |title=HTML5 specification finalized, squabbling over specs continues |publisher=Ars Technica |date=29 October 2014 |access-date=29 October 2014}}</ref>
+| standard  = [https://www.w3.org/TR/2017/REC-html52-20171214/ HTML 5.2]
+| free      = Yes
+| type code = TEXT
+| uniform type = public.html<ref>{{cite web |url= https://developer.apple.com/library/mac/#documentation/Miscellaneous/Reference/UTIRef/Articles/System-DeclaredUniformTypeIdentifiers.html |title=Mac Developer Library: System-Declared Uniform Type Identifiers | publisher=[[Apple Inc.|Apple]] |date=17 November 2009}}</ref>
+| owner     = [[W3C]]
+| genre     = [[Markup language]]
+}}
+{{HTML}}
+
+'''HTML5''' is a [[markup language]] used for structuring and presenting content on the [[World Wide Web]]. It is the fifth and latest major version of [[HTML]] that is a [[World Wide Web Consortium|World Wide Web Consortium (W3C)]] recommendation. The current specification is known as the [[HTML#Transition of HTML Publication to WHATWG|HTML Living Standard]] and is maintained by a consortium of the major browser vendors ([[Apple Inc.|Apple]], [[Google]], [[Mozilla]], and [[Microsoft]]), the [[Web Hypertext Application Technology Working Group]] (WHATWG).
+
+HTML5 was first released in public-facing form on 22 January 2008,<ref name="HTML5v1" /> with a major update and "W3C Recommendation" status in October 2014.<ref name="finalars" /><ref>{{cite web |url= https://www.w3.org/blog/news/archives/4167 |title=HTML5 is a W3C recommendation |work=W3C Blog |publisher=[[World Wide Web Consortium]] (W3C) |date=28 October 2014 |access-date=28 October 2014}}</ref> Its goals were to improve the language with support for the latest [[multimedia]] and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices such as [[web browser]]s, [[Parsing|parsers]], etc., without [[XHTML|XHTML's]] rigidity; and to remain [[backward-compatible]] with older software. HTML5 is intended to subsume not only [[HTML&nbsp;4]] but also XHTML&nbsp;1 and [[Document Object Model|DOM]] Level 2 HTML.<ref name="HTML5diffHTML4-quote">{{cite web |title=HTML5 Differences from HTML4 |url= https://www.w3.org/TR/2014/NOTE-html5-diff-20141209/ |work=W3.org |publisher=[[W3C]] |access-date=2 March 2018 |quote= HTML4 became a W3C Recommendation in 1997. While it continues to serve as a rough guide to many of the core features of HTML, it does not provide enough information to build implementations that interoperate with each other and, more importantly, with Web content. The same goes for XHTML1, which defines an XML serialization for HTML4, and DOM Level 2 HTML, which defines JavaScript APIs for both HTML and XHTML. HTML replaces these documents. |at=Introduction}}</ref>
+
+HTML5 includes detailed processing models to encourage more interoperable implementations; it extends, improves and rationalizes the markup available for documents and introduces markup and [[application programming interface]]s (APIs) for complex [[web application]]s.<ref name="HTML5diffHTML4">{{cite web |title=HTML5 Differences from HTML4 |url= https://www.w3.org/TR/html5-diff/ |work=W3.org |publisher=[[W3C]] |date=19 October 2010 |access-date=4 December 2010}}</ref> For the same reasons, HTML5 is also a candidate for cross-platform mobile applications, because it includes features designed with low-powered devices in mind.
+
+Many new [[Syntax (programming languages)|syntactic]] features are included. To natively include and handle multimedia and [[2D computer graphics|graphical]] content, the new [[HTML5 video|{{tag|video|o}}]], [[HTML5 Audio|{{tag|audio|o}}]] and [[Canvas element|{{tag|canvas|o}}]] [[HTML element|elements]] were added, and support for [[scalable vector graphics]] (SVG) content and [[MathML]] for mathematical formulas was also added. To enrich the [[Semantic Web|semantic]] content of documents, new page structure elements such as {{tag|main|o}}, {{tag|section|o}}, [[Article element (HTML5)|{{tag|article|o}}]], {{tag|header|o}}, {{tag|footer|o}}, {{tag|aside|o}}, {{tag|nav|o}}, and {{tag|figure|o}} are added. New [[HTML attribute|attributes]] were introduced, some elements and attributes were removed, and others such as {{tag|a|o}}, {{tag|cite|o}}, and {{tag|menu|o}} were changed, redefined, or standardized. The APIs and [[Document Object Model]] (DOM) are now fundamental parts of the HTML5 specification,<ref name="HTML5diffHTML4" /> and HTML5 also better defines the processing for any invalid documents.<ref>{{cite web |title=HTML 5.2 W3C Recommendation |at=§ 1.10.2 Syntax Errors |url= https://www.w3.org/TR/html5/introduction.html#syntax-errors |work=W3.org |publisher=[[W3C]] |date=14 December 2017 |access-date=29 June 2017}}</ref>
