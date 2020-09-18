@@ -1,0 +1,254 @@
+==Technologies==
+When the Internet is accessed using a [[modem]], [[digital data]] is converted to [[analog signal|analog]] for transmission over analog networks such as the [[Public switched telephone network|telephone]] and [[Cable television|cable]] networks.<ref name="howstuffworks">[http://www.explainthatstuff.com/howbroadbandworks.html "How Broadband Works"] {{webarchive|url=https://web.archive.org/web/20110913021130/http://www.explainthatstuff.com//howbroadbandworks.html |date=2011-09-13 }}, Chris Woodford, Explain that Stuff, 20 August 2008. Retrieved 19 January.</ref> A computer or other device accessing the Internet would either be connected directly to a modem that communicates with an [[Internet service provider]] (ISP) or the modem's Internet connection would be shared via a [[Local Area Network]] (LAN) which provides access in a limited area such as a home, school, computer laboratory, or office building.
+
+Although a connection to a LAN may provide very high data-rates within the LAN, actual Internet access speed is limited by the upstream link to the ISP. LANs may be wired or wireless. [[Ethernet]] over [[twisted pair]] cabling and [[Wi-Fi]] are the two most common technologies used to build LANs today, but [[ARCNET]], [[Token Ring]], [[Localtalk]], [[FDDI]], and other technologies were used in the past.
+
+[[Ethernet]] is the name of the [[IEEE 802.3]] standard for physical LAN communication<ref>{{cite web |url=https://standards.ieee.org/about/get/802/802.3.html |title=Archived copy |accessdate=2017-02-14 |url-status=live |archiveurl=https://web.archive.org/web/20170124030206/http://standards.ieee.org/about/get/802/802.3.html |archivedate=2017-01-24 }}</ref> and [[Wi-Fi]] is a trade name for a [[wireless local area network]] (WLAN) that uses one of the [[IEEE 802.11]] standards.<ref>{{cite encyclopedia|title=Wi-Fi (wireless networking technology)|encyclopedia=Encyclopædia Britannica|url=http://www.britannica.com/EBchecked/topic/1473553/Wi-Fi|accessdate=2010-02-03|url-status=live|archiveurl=https://web.archive.org/web/20100627181935/http://www.britannica.com/EBchecked/topic/1473553/Wi-Fi|archivedate=2010-06-27}}</ref> Ethernet cables are interconnected via switches & routers. Wi-Fi networks are built using one or more wireless antenna called [[Wireless access point|access points]].
+
+Many "modems" provide the additional functionality to host a LAN so most Internet access today is through a LAN{{citation needed|date=November 2014}}, often a very small LAN with just one or two devices attached. And while LANs are an important form of Internet access, this raises the question of how and at what data rate the LAN itself is connected to the rest of the global Internet. The technologies described below are used to make these connections.
+
+===Hardwired broadband access===
+
+The term [[broadband]] includes a broad range of technologies, all of which provide higher data rate access to the Internet. The following technologies use wires or cables in contrast to wireless broadband described later.
+
+====Dial-up access====
+{{Listen
+|filename = Dial up modem noises.ogg
+|title = "Dial up modem noises"
+|description = Typical noises of a [[dial-up|dial-up modem]] while establishing connection with a local [[Internet service provider|ISP]] in order to get access to the [[Internet]].
+|pos=right}}
+[[Dial-up Internet access]] uses a modem and a phone call placed over the [[public switched telephone network]] (PSTN) to connect to a pool of modems operated by an ISP. The [[modem]] converts a computer's digital signal into an analog signal that travels over a phone line's [[local loop]] until it reaches a telephone company's switching facilities or central office (CO) where it is switched to another phone line that connects to another modem at the remote end of the connection.<ref name=Network>{{cite book|last=Dean|first=Tamara|title=Network+ Guide to Networks, 5th Ed|year=2010}}</ref>
+
+Operating on a single channel, a dial-up connection monopolizes the phone line and is one of the slowest methods of accessing the Internet. Dial-up is often the only form of Internet access available in rural areas as it requires no new infrastructure beyond the already existing telephone network, to connect to the Internet. Typically, dial-up connections do not exceed a speed of 56 [[kbit/s]], as they are primarily made using modems that operate at a maximum data rate of 56 kbit/s downstream (towards the end user) and 34 or 48 kbit/s upstream (toward the global Internet).<ref name="howstuffworks" />
+
+====Multilink dial-up====
+[[Multilink striping|Multilink]] dial-up provides increased bandwidth by [[channel bonding]] multiple dial-up connections and accessing them as a single data channel.<ref>[http://www.56k.com/reports/bonding.shtml "Bonding: 112K, 168K, and beyond "] {{webarchive|url=https://web.archive.org/web/20070310194539/http://www.56k.com/reports/bonding.shtml |date=2007-03-10 }}, 56K.com</ref> It requires two or more modems, phone lines, and dial-up accounts, as well as an ISP that supports multilinking – and of course any line and data charges are also doubled. This [[inverse multiplexing]] option was briefly popular with some high-end users before ISDN, DSL and other technologies became available. [[Diamond Multimedia|Diamond]] and other vendors created special modems to support multilinking.<ref name="fail">[http://www.maximumpc.com/article/features/top_tech_blunders_10_products_massively_failed "Diamond 56k Shotgun Modem"] {{webarchive|url=https://web.archive.org/web/20120331173853/http://www.maximumpc.com/article/features/top_tech_blunders_10_products_massively_failed |date=2012-03-31 }}, maximumpc.com</ref>
+
+====Integrated Services Digital Network====
+[[Integrated Services Digital Network]] (ISDN) is a switched telephone service capable of transporting voice and digital data, and is one of the oldest Internet access methods. ISDN has been used for voice, video conferencing, and broadband data applications. ISDN was very popular in Europe, but less common in North America. Its use peaked in the late 1990s before the availability of [[DSL]] and [[cable modem]] technologies.<ref>{{cite book |author=William Stallings |title=ISDN and Broadband ISDN with Frame Relay and ATM |edition=4th |publisher=Prentice Hall |year=1999 |page=542 |isbn=978-0139737442 |url=http://www.pearsonhighered.com/educator/product/ISDN-and-Broadband-ISDN-with-Frame-Relay-and-ATM-4E/9780139737442.page |url-status=live |archiveurl=https://web.archive.org/web/20150924071103/http://www.pearsonhighered.com/educator/product/ISDN-and-Broadband-ISDN-with-Frame-Relay-and-ATM-4E/9780139737442.page |archivedate=2015-09-24 }}</ref>
+
+Basic rate ISDN, known as ISDN-BRI, has two 64 kbit/s "bearer" or "B" channels. These channels can be used separately for voice or data calls or bonded together to provide a 128&nbsp;kbit/s service. Multiple ISDN-BRI lines can be bonded together to provide data rates above 128&nbsp;kbit/s. Primary rate ISDN, known as ISDN-PRI, has 23 bearer channels (64&nbsp;kbit/s each) for a combined data rate of 1.5&nbsp;Mbit/s (US standard). An ISDN E1 (European standard) line has 30 bearer channels and a combined data rate of 1.9&nbsp;Mbit/s.
+
+====Leased lines====
+[[Leased line]]s are dedicated lines used primarily by ISPs, business, and other large enterprises to connect LANs and campus networks to the Internet using the existing infrastructure of the [[Public switched telephone network|public telephone network]] or other providers. Delivered using wire, [[optical fiber]], and [[radio]], leased lines are used to provide Internet access directly as well as the building blocks from which several other forms of Internet access are created.<ref name="Horak">[http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470396075.html ''Telecommunications and Data Communications Handbook''] {{webarchive|url=https://web.archive.org/web/20130308075758/http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470396075.html |date=2013-03-08 }}, Ray Horak, 2nd edition, Wiley-Interscience, 2008, 791 p., {{ISBN|0-470-39607-5}}</ref>
+
+[[T-carrier]] technology dates to 1957 and provides data rates that range from 56 and {{val|64|u=kbit/s}} ([[Digital Signal 0|DS0]]) to {{val|1.5|u=Mbit/s}} ([[Digital Signal 1|DS1]] or T1), to {{val|45|u=Mbit/s}} ([[Digital Signal 3|DS3]] or T3). A T1 line carries 24 voice or data channels (24 DS0s), so customers may use some channels for data and others for voice traffic or use all 24 channels for clear channel data. A DS3 (T3) line carries 28 DS1 (T1) channels. Fractional T1 lines are also available in multiples of a DS0 to provide data rates between 56 and {{val|1,500|u=kbit/s}}. T-carrier lines require special termination equipment that may be separate from or integrated into a router or switch and which may be purchased or leased from an ISP.<ref>{{cite book|last=Dean|first=Tamara|title=Network+ Guide to Networks|edition=5th|publisher=Course Technology, Cengage Learning|year=2009|url=http://www.cengage.com/search/productOverview.do?N=0&Ntk=P_Isbn13&Ntt=9781423902454|isbn=978-1-4239-0245-4|url-status=dead|archiveurl=https://web.archive.org/web/20130420223256/http://www.cengage.com/search/productOverview.do?N=0&Ntk=P_Isbn13&Ntt=9781423902454|archivedate=2013-04-20}} pp 312–315.</ref> In Japan the equivalent standard is J1/J3. In Europe, a slightly different standard, [[E-carrier]], provides 32 user channels ({{val|64|u=kbit/s}}) on an E1 ({{val|2.0|u=Mbit/s}}) and 512 user channels or 16 E1s on an E3 ({{val|34.4|u=Mbit/s}}).
+
+[[Synchronous Optical Networking]] (SONET, in the U.S. and Canada) and Synchronous Digital Hierarchy (SDH, in the rest of the world) are the standard multiplexing protocols used to carry high-data-rate digital bit-streams over optical fiber using [[lasers]] or highly [[coherent light]] from [[light-emitting diodes]] (LEDs). At lower transmission rates data can also be transferred via an electrical interface. The basic unit of framing is an [[OC-3c]] (optical) or [[Synchronous optical networking#The basic unit of transmission|STS-3]]c (electrical) which carries {{val|155.520|u=Mbit/s}}. Thus an OC-3c will carry three [[Optical Carrier#OC-1|OC-1]] (51.84 Mbit/s) payloads each of which has enough capacity to include a full DS3. Higher data rates are delivered in OC-3c multiples of four providing [[OC-12]]c ({{val|622.080|u=Mbit/s}}), [[OC-48]]c ({{val|2.488|u=Gbit/s}}), [[OC-192]]c ({{val|9.953|u=Gbit/s}}), and [[OC-768]]c (39.813 Gbit/s). The "c" at the end of the OC labels stands for "concatenated" and indicates a single data stream rather than several multiplexed data streams.<ref name="Horak" />
+
+The 1, 10, 40, and 100 gigabit Ethernet ([[GbE]], [[10 GbE]], [[100 Gigabit Ethernet|40/100 GbE]]) [[IEEE 802.3|IEEE standards (802.3)]] allow digital data to be delivered over copper wiring at distances to 100&nbsp;m and over optical fiber at distances to {{val|40|u=km}}.<ref>[http://www.ieee802.org/3/ "IEEE 802.3 Ethernet Working Group"] {{webarchive|url=https://web.archive.org/web/20141012182235/http://www.ieee802.org/3/ |date=2014-10-12 }}, web page, IEEE 802 LAN/MAN Standards Committee, accessed 8 May 2012</ref>
+
+====Cable Internet access====
+{{main|Cable Internet access}}
+Cable Internet provides access using a [[cable modem]] on [[Hybrid fibre-coaxial|hybrid fiber coaxial]] wiring originally developed to carry television signals. Either fiber-optic or coaxial copper cable may connect a node to a customer's location at a connection known as a cable drop. In a [[cable modem termination system]], all nodes for cable subscribers in a neighborhood connect to a cable company's central office, known as the "head end." The cable company then connects to the Internet using a variety of means – usually fiber optic cable or digital satellite and microwave transmissions.<ref name="Dean322">{{cite book|last=Dean|first=Tamara|title=Network+ Guide to Networks|edition=5th|publisher=Course Technology, Cengage Learning|year=2009|url=http://www.cengage.com/search/productOverview.do?N=0&Ntk=P_Isbn13&Ntt=9781423902454|isbn=978-1-4239-0245-4|url-status=dead|archiveurl=https://web.archive.org/web/20130420223256/http://www.cengage.com/search/productOverview.do?N=0&Ntk=P_Isbn13&Ntt=9781423902454|archivedate=2013-04-20}} p 322.</ref> Like DSL, broadband cable provides a continuous connection with an ISP.
+
+[[Downstream (computer science)|Downstream]], the direction toward the user, bit rates can be as much as 400&nbsp;[[Mbit/s]] for business connections, and 320&nbsp;Mbit/s for residential service in some countries. Upstream traffic, originating at the user, ranges from 384&nbsp;kbit/s to more than 20&nbsp;Mbit/s. Broadband cable access tends to service fewer business customers because existing television cable networks tend to service residential buildings and commercial buildings do not always include wiring for coaxial cable networks.<ref>{{cite book|last=Dean|first=Tamara|title=Network+ Guide to Networks|edition=5th|publisher=Course Technology, Cengage Learning|year=2009|url=http://www.cengage.com/search/productOverview.do?N=0&Ntk=P_Isbn13&Ntt=9781423902454|isbn=978-1-4239-0245-4|url-status=dead|archiveurl=https://web.archive.org/web/20130420223256/http://www.cengage.com/search/productOverview.do?N=0&Ntk=P_Isbn13&Ntt=9781423902454|archivedate=2013-04-20}} p 323.</ref> In addition, because broadband cable subscribers share the same local line, communications may be intercepted by neighboring subscribers. Cable networks regularly provide encryption schemes for data traveling to and from customers, but these schemes may be thwarted.<ref name="Dean322"/>
+
+====Digital subscriber line (DSL, ADSL, SDSL, and VDSL)====
+[[Digital subscriber line]] (DSL) service provides a connection to the Internet through the telephone network. Unlike dial-up, DSL can operate using a single phone line without preventing normal use of the telephone line for voice phone calls. DSL uses the high frequencies, while the low (audible) frequencies of the line are left free for [[Plain old telephone service|regular telephone]] communication.<ref name="howstuffworks" /> These frequency bands are subsequently separated by filters installed at the customer's premises.
+
+DSL originally stood for "digital subscriber loop". In telecommunications marketing, the term digital subscriber line is widely understood to mean [[asymmetric digital subscriber line]] (ADSL), the most commonly installed variety of DSL. The data throughput of consumer DSL services typically ranges from 256&nbsp;kbit/s to 20&nbsp;Mbit/s in the direction to the customer (downstream), depending on DSL technology, line conditions, and service-level implementation. In ADSL, the data throughput in the upstream direction, (i.e. in the direction to the service provider) is lower than that in the downstream direction (i.e. to the customer), hence the designation of asymmetric.<ref>[http://whirlpool.net.au/wiki/?tag=ADSL_Theory "ADSL Theory"] {{webarchive|url=https://web.archive.org/web/20100724040222/http://whirlpool.net.au/wiki/?tag=ADSL_Theory |date=2010-07-24 }}, Australian broadband news and information, Whirlpool, accessed 3 May 2012</ref> With a [[symmetric digital subscriber line]] (SDSL), the downstream and upstream data rates are equal.<ref>[http://docwiki.cisco.com/wiki/Digital_Subscriber_Line#SDSL "SDSL"] {{webarchive|url=https://web.archive.org/web/20120418172858/http://docwiki.cisco.com/wiki/Digital_Subscriber_Line |date=2012-04-18 }}, ''Internetworking Technology Handbook'', Cisco DocWiki, 17 December 2009, accessed 3 May 2012</ref>
+
+[[Very-high-bit-rate digital subscriber line]] (VDSL or VHDSL, ITU G.993.1)<ref>{{cite web|url=http://www.kpn.com/artikel.htm?contentid=2895 |publisher=[[KPN]] |title=KPN starts VDSL trials |url-status=dead |archiveurl=https://web.archive.org/web/20080504192232/http://www.kpn.com/Artikel.htm?contentid=2895 |archivedate=2008-05-04 }}</ref> is a digital subscriber line (DSL) standard approved in 2001 that provides data rates up to 52&nbsp;Mbit/s downstream and 16&nbsp;Mbit/s upstream over copper wires<ref>{{cite web |url=http://computer.howstuffworks.com/vdsl2.htm |publisher=[[HowStuffWorks]] |title=VDSL Speed |url-status=live |archiveurl=https://web.archive.org/web/20100312075145/http://computer.howstuffworks.com/vdsl2.htm |archivedate=2010-03-12 |date=2001-05-21 }}</ref> and up to 85 Mbit/s down- and upstream on coaxial cable.<ref>{{cite web |url=http://www.etherwan.com/Product/ViewProduct.asp?View=64 |archive-url=https://web.archive.org/web/20110710203152/http://www.etherwan.com/Product/ViewProduct.asp?View=64 |url-status=dead |archive-date=2011-07-10 |publisher=EtherWAN |title=Industrial VDSL Ethernet Extender Over Coaxial Cable, ED3331 }}</ref> VDSL is capable of supporting applications such as high-definition television, as well as telephone services ([[voice over IP]]) and general Internet access, over a single physical connection.
+
+[[VDSL2]] (ITU-T G.993.2) is a second-generation version and an enhancement of VDSL.<ref name="press">{{Cite news |title= New ITU Standard Delivers 10x ADSL Speeds: Vendors applaud landmark agreement on VDSL2 |date= 27 May 2005 |work= News release |publisher= International Telecommunication Union |url= http://www.itu.int/newsroom/press_releases/2005/06.html |accessdate= 22 September 2011 |url-status= live |archiveurl= https://web.archive.org/web/20160903203113/http://www.itu.int/newsroom/press_releases/2005/06.html |archivedate= 3 September 2016 }}</ref> Approved in February 2006, it is able to provide data rates exceeding 100&nbsp;Mbit/s simultaneously in both the upstream and downstream directions. However, the maximum data rate is achieved at a range of about 300 meters and performance degrades as distance and loop [[attenuation]] increases.
+
+====DSL Rings====
+[[DSL Rings]] (DSLR) or Bonded DSL Rings is a ring topology that uses DSL technology over existing copper telephone wires to provide data rates of up to 400&nbsp;Mbit/s.<ref name="financialpost">{{cite news
+ |last        = Sturgeon
+ |first       = Jamie
+ |title       = A smarter route to high-speed Net
+ |publisher   = [[National Post]]
+ |work        = FP Entrepreneur
+ |date        = October 18, 2010
+ |url         = http://www.financialpost.com/entrepreneur/smarter+route+high+speed/3687154/story.html
+ |accessdate  = January 7, 2011
+ |url-status     = dead
+ |archiveurl  = https://web.archive.org/web/20101023013214/http://www.financialpost.com/entrepreneur/smarter+route+high+speed/3687154/story.html
+ |archivedate = October 23, 2010
+ |df          = mdy-all
+}}</ref>
+
+====Fiber to the home====
+[[Fiber to the x|Fiber-to-the-home]] (FTTH) is one member of the Fiber-to-the-x (FTTx) family that includes Fiber-to-the-building or basement (FTTB), Fiber-to-the-premises (FTTP), Fiber-to-the-desk (FTTD), Fiber-to-the-curb (FTTC), and Fiber-to-the-node (FTTN).<ref name="council">{{cite web |title= FTTH Council – Definition of Terms |date= January 9, 2009 |url= http://ftthcouncil.eu/documents/Reports/FTTH-Definitions-Revision_January_2009.pdf |publisher= FTTH Council |accessdate= September 1, 2011 }}{{dead link|date=September 2017 |bot=InternetArchiveBot |fix-attempted=yes }}</ref> These methods all bring data closer to the end user on optical fibers. The differences between the methods have mostly to do with just how close to the end user the delivery on fiber comes. All of these delivery methods are similar to [[hybrid fiber-coaxial]] (HFC) systems used to provide [[cable Internet access]].
+
+The use of [[Fiber-optic communication|optical fiber]] offers much higher data rates over relatively longer distances. Most high-capacity Internet and cable television backbones already use fiber optic technology, with data switched to other technologies (DSL, cable, [[Plain old telephone service|POTS]]) for final delivery to customers.<ref>[http://www.fiopt.com/primer.php "FTTx Primer"] {{webarchive|url=https://web.archive.org/web/20081011033903/http://www.fiopt.com/primer.php |date=2008-10-11 }}, Fiopt Communication Services (Calgary), July 2008</ref>
+
+In 2010, Australia began rolling out its [[National Broadband Network]] across the country using fiber-optic cables to 93 percent of Australian homes, schools, and businesses.<ref>[http://www.abc.net.au/news/2010-08-12/big-gig-nbn-to-be-10-times-faster/941408 "Big gig: NBN to be 10 times faster"] {{webarchive|url=https://web.archive.org/web/20120429192147/http://www.abc.net.au/news/2010-08-12/big-gig-nbn-to-be-10-times-faster/941408 |date=2012-04-29 }}, Emma Rodgers, ''ABC News'', Australian Broadcasting Corporation, 12 August 2010</ref>  The project was abandoned by the subsequent LNP government, in favour of a hybrid FTTN design, which turned out to be more expensive and introduced delays.  Similar efforts are underway in Italy, Canada, India, and many other countries (see [[Fiber to the premises by country]]).<ref>[http://www.telecomseurope.net/content/italy-gets-fiber-back-track "Italy gets fiber back on track"] {{webarchive|url=https://web.archive.org/web/20120322205235/http://www.telecomseurope.net/content/italy-gets-fiber-back-track |date=2012-03-22 }}, Michael Carroll, TelecomsEMEA.net, 20 September 2010</ref><ref>[http://www.freevoipcallsolution.com/2010/08/pirelli-broadband-solutions-technology.html "Pirelli Broadband Solutions, the technology partner of fastweb network Ngan"] {{webarchive|url=https://web.archive.org/web/20120328111850/http://www.freevoipcallsolution.com/2010/08/pirelli-broadband-solutions-technology.html |date=2012-03-28 }}, 2 August 2010</ref><ref>[http://www.fiercetelecom.com/story/telecom-italia-rolls-out-100-mbps-ftth-services-catania/2010-11-03 "Telecom Italia rolls out 100 Mbps FTTH services in Catania"] {{webarchive|url=https://web.archive.org/web/20101231123152/http://www.fiercetelecom.com/story/telecom-italia-rolls-out-100-mbps-ftth-services-catania/2010-11-03 |date=2010-12-31 }}, Sean Buckley, FierceTelecom, 3 November 2010</ref><ref>[http://www.sasktel.com/about-us/news/2011-news-releases/sasktel-announces-2011-network-investment-and-fiber-to-the-premises.html "SaskTel Announces 2011 Network Investment and Fiber to the Premises Program"] {{webarchive|url=https://archive.today/20120911184530/http://www.sasktel.com/about-us/news/2011-news-releases/sasktel-announces-2011-network-investment-and-fiber-to-the-premises.html |date=2012-09-11 }}, SaskTel, Saskatchewan Telecommunications Holding Corporation, 5 April 2011</ref>
+
+====Power-line Internet====
+[[Power-line Internet]], also known as [[Broadband over power lines]] (BPL), carries Internet data on a conductor that is also used for [[electric power transmission]].<ref name="BERGU14">{{cite book|last1=Berger|first1=Lars T.|last2=Schwager|first2=Andreas|last3=Pagani|first3=Pascal|last4=Schneider|first4=Daniel M.|date=February 2014|title=MIMO Power Line Communications: Narrow and Broadband Standards, EMC, and Advanced Processing|publisher=CRC Press|series=Devices, Circuits, and Systems|isbn=9781466557529|doi=10.1201/b16540-1}}{{Dead link|date=January 2019 |bot=InternetArchiveBot |fix-attempted=yes }}</ref> Because of the extensive power line infrastructure already in place, this technology can provide people in rural and low population areas access to the Internet with little cost in terms of new transmission equipment, cables, or wires. Data rates are asymmetric and generally range from 256 kbit/s to 2.7 Mbit/s.<ref name="HSW-BPL">[http://computer.howstuffworks.com/bpl.htm "How Broadband Over Powerlines Works"] {{webarchive|url=https://web.archive.org/web/20120512090550/http://computer.howstuffworks.com/bpl.htm |date=2012-05-12 }}, Robert Valdes, ''How Stuff Works'', accessed 5 May 2012</ref>
+
+Because these systems use parts of the radio spectrum allocated to other over-the-air communication services, interference between the services is a limiting factor in the introduction of power-line Internet systems. The [[IEEE P1901]] standard specifies that all power-line protocols must detect existing usage and avoid interfering with it.<ref name="HSW-BPL" />
+
+Power-line Internet has developed faster in Europe than in the U.S. due to a historical difference in power system design philosophies. Data signals cannot pass through the step-down transformers used and so a repeater must be installed on each transformer.<ref name="HSW-BPL" /> In the U.S. a transformer serves a small cluster of from one to a few houses. In Europe, it is more common for a somewhat larger transformer to service larger clusters of from 10 to 100 houses. Thus a typical U.S. city requires an order of magnitude more repeaters than in a comparable European city.<ref>[http://electrical-engineering-portal.com/north-american-versus-european-distribution-systems "North American versus European distribution systems"] {{webarchive|url=https://web.archive.org/web/20120507211603/http://electrical-engineering-portal.com/north-american-versus-european-distribution-systems |date=2012-05-07 }}, Edvard, Technical articles, Electrical Engineering Portal, 17 November 2011</ref>
+
+====ATM and Frame Relay====
+[[Asynchronous Transfer Mode]] (ATM) and [[Frame Relay]] are wide-area networking standards that can be used to provide Internet access directly or as building blocks of other access technologies. For example, many DSL implementations use an ATM layer over the low-level bitstream layer to enable a number of different technologies over the same link. Customer LANs are typically connected to an ATM switch or a Frame Relay node using leased lines at a wide range of data rates.<ref>[http://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-I.150-199902-I!!PDF-E&type=items ''B-ISDN asynchronous transfer mode functional characteristics''] {{webarchive|url=https://web.archive.org/web/20121012161801/http://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-I.150-199902-I!!PDF-E&type=items |date=2012-10-12 }}, ITU-T Recommendation I.150, February 1999, International Telecommunications Union</ref><ref>[http://searchenterprisewan.techtarget.com/definition/frame-relay "Frame Relay"] {{webarchive|url=https://web.archive.org/web/20120409171824/http://searchenterprisewan.techtarget.com/definition/frame-relay |date=2012-04-09 }}, Margaret Rouse, TechTarget, September 2005</ref>
+
+While still widely used, with the advent of Ethernet over optical fiber, [[MPLS]], [[VPN]]s and broadband services such as [[cable modem]] and [[Digital subscriber line|DSL]], ATM and Frame Relay no longer play the prominent role they once did.
+
+===Wireless broadband access===
+[[Wireless broadband]] is used to provide both fixed and mobile Internet access with the following technologies.
+
+====Satellite broadband====
+[[File:Ghana satellite.jpg|thumb|Satellite Internet access via [[VSAT]] in Ghana]]
+
+[[Satellite Internet access]] provides fixed, portable, and mobile Internet access.<ref>[http://iml.jou.ufl.edu/projects/Fall99/Coffey/ "Internet in the Sky"] {{webarchive|url=https://web.archive.org/web/20121216120858/http://iml.jou.ufl.edu/projects/Fall99/Coffey/ |date=2012-12-16 }}, D.J. Coffey, accessed 8 May 2012</ref> Data rates range from 2 kbit/s to 1 Gbit/s downstream and from 2 kbit/s to 10 Mbit/s upstream. In the northern hemisphere, satellite antenna dishes require a clear line of sight to the southern sky, due to the equatorial position of all geostationary satellites. In the southern hemisphere, this situation is reversed, and dishes are pointed north.<ref name=how>[http://computer.howstuffworks.com/question606.htm "How does satellite Internet operate?"] {{webarchive|url=https://web.archive.org/web/20110927053708/http://computer.howstuffworks.com/question606.htm |date=2011-09-27 }}, How Stuff Works, Retrieved 5 March 2009.</ref><ref name=geostationary>{{cite web| url=http://searchmobilecomputing.techtarget.com/definition/geostationary-satellite| title=Geostationary Satellite Definition| author=Margaret Rouse| publisher=Search Mobile Computing| access-date=June 24, 2015| url-status=dead| archiveurl=https://web.archive.org/web/20150610040610/http://searchmobilecomputing.techtarget.com/definition/geostationary-satellite| archivedate=June 10, 2015}}</ref> Service can be adversely affected by moisture, rain, and snow (known as rain fade).<ref name=how/><ref name=geostationary/><ref>{{cite web| url=http://searchmobilecomputing.techtarget.com/definition/rain-fade| title=Rain Fade Definition| author=Margaret Rouse| publisher=Search Mobile Computing| access-date=June 24, 2015| url-status=live| archiveurl=https://web.archive.org/web/20150622005223/http://searchmobilecomputing.techtarget.com/definition/rain-fade| archivedate=June 22, 2015}}</ref> The system requires a carefully aimed directional antenna.<ref name=geostationary/>
+
+Satellites in geostationary Earth orbit (GEO) operate in a fixed position 35,786&nbsp;km (22,236 miles) above the Earth's equator. At the speed of light (about 300,000&nbsp;km/s or 186,000 miles per second), it takes a quarter of a second for a radio signal to travel from the Earth to the satellite and back. When other switching and routing delays are added and the delays are doubled to allow for a full round-trip transmission, the total delay can be 0.75 to 1.25 seconds. This latency is large when compared to other forms of Internet access with typical latencies that range from 0.015 to 0.2 seconds. Long latencies negatively affect some applications that require real-time response, particularly online games, [[voice over IP]], and remote control devices.<ref>{{cite book| title=The Basics of Satellite Communication| author=Joseph N. Pelton| date=2006| publisher=Professional Education International, Inc.| isbn=978-1-931695-48-0}}</ref><ref>{{cite book| title=The First 100 Feet: Options for Internet and Broadband Access| author=Deborah Hurley, James H. Keller| date=1999| publisher=Harvard college| isbn=978-0-262-58160-8| url-access=registration| url=https://archive.org/details/first100feetopti00debo}}</ref> [[TCP tuning]] and [[TCP acceleration]] techniques can mitigate some of these problems. GEO satellites do not cover the Earth's polar regions.<ref name=how/> [[HughesNet]], [[Exede]], [[AT&T]] and [[Dish Network]] have GEO systems.<ref>{{cite web| url=http://about.att.com/mediakit/broadband| title=AT&T Broadband Services| publisher=ATT| access-date=June 24, 2015| url-status=live| archiveurl=https://web.archive.org/web/20150610121009/http://about.att.com/mediakit/broadband| archivedate=June 10, 2015}}</ref><ref>{{cite web| url=http://www.hughesnet.com/| title=Home| publisher=Hughes Net| access-date=June 24, 2015| url-status=live| archiveurl=https://web.archive.org/web/20150623192705/http://www.hughesnet.com/| archivedate=June 23, 2015}}</ref><ref>{{cite web| url=http://www.exede.com/| title=Home| publisher=Exede Internet| access-date=June 24, 2015| url-status=live| archiveurl=https://web.archive.org/web/20150617072311/http://www.exede.com/| archivedate=June 17, 2015}}</ref><ref>{{cite web| url=http://www.dish.com/bundles/| title=Bundles| publisher=Dish Network| access-date=June 24, 2015| url-status=live| archiveurl=https://web.archive.org/web/20150613031716/http://www.dish.com/bundles/| archivedate=June 13, 2015}}</ref>
+ 
+Satellites in [[low Earth orbit]] (LEO, below 2000&nbsp;km or 1243 miles) and [[medium Earth orbit]] (MEO, between 2000 and 35,786&nbsp;km or 1,243 and 22,236 miles) are less common, operate at lower altitudes, and are not fixed in their position above the Earth. Lower altitudes allow lower latencies and make real-time interactive Internet applications more feasible. LEO systems include [[Globalstar]] and [[Iridium satellite constellation|Iridium]]. The [[O3b (satellite)|O3b Satellite Constellation]] is a proposed MEO system with a latency of 125 ms. COMMStellation™ is a LEO system, scheduled for launch in 2015, that is expected to have a latency of just 7&nbsp;ms.
+
+====Mobile broadband====
+[[File:Mobile Broadband service mark.jpg|thumb |150px |Service mark for [[GSM Association|GSMA]] ]]
+[[Mobile broadband]] is the marketing term for wireless Internet access delivered through mobile phone towers to computers, [[mobile phone]]s (called "cell phones" in North America and South Africa, and "hand phones" in Asia), and other digital devices using [[portable modem]]s. Some mobile services allow more than one device to be connected to the Internet using a single cellular connection using a process called [[tethering]]. The modem may be built into laptop computers, tablets, mobile phones, and other devices, added to some devices using [[PC card]]s, [[USB modem]]s, and [[USB sticks]] or [[PC Card dongle|dongles]], or separate [[wireless modem]]s can be used.<ref name="ergen">{{cite book |title= Mobile Broadband: including WiMAX and LTE |publisher= Springer Science+Business Media |year= 2009 |author= Mustafa Ergen |isbn= 978-0-387-68189-4 |doi= 10.1007/978-0-387-68192-4 }}</ref>
+
+New mobile phone technology and infrastructure is introduced periodically and generally involves a change in the fundamental nature of the service, non-backwards-compatible transmission technology, higher peak data rates, new frequency bands, wider channel frequency bandwidth in Hertz becomes available. These transitions are referred to as generations. The first mobile data services became available during the second generation (2G).
+
+{| class="wikitable" style="float:left; margin-top:5px; margin-right:20px; line-height:1.2em;"
+|+ style="padding-bottom:1px;" |[[2G|Second generation (2G)]]&nbsp;<span style="font-weight:normal">from 1991:</span>
+|- style="font-style:italic; padding-top:1px; padding-bottom:1px; line-height:0.9em; font-size:90%;"
+|  style="font-weight:normal; border:solid 1px white; border-right:inherit; background:white; text-align:right;"|Speeds in kbit/s
+! colspan=2 style="font-weight:normal; border-bottom:solid 1px #888888;" |down and up
+|-
+| style="border:solid 1px white; border-right:inherit; background:white;"|{{·}} [[Circuit Switched Data|GSM CSD]]  
+| style="text-align:center;" colspan="2"| 9.6 kbit/s
+|-
+| style="border:solid 1px white; border-right:inherit; background:white;"|{{·}} [[Cellular digital packet data|''CDPD'']]  
+| colspan="2" style="text-align:center;"| up to 19.2 kbit/s
+|-
+| style="border:solid 1px white; border-right:inherit; background:white;"|{{·}} [[General Packet Radio Service|GSM GPRS]] (2.5G)
+| colspan="2" style="text-align:center;"| 56 to 115 kbit/s
+|-
+| style="border:solid 1px white; border-right:inherit; background:white;"|{{·}} [[Enhanced Data Rates for GSM Evolution|GSM EDGE]] (2.75G)&nbsp;
+| colspan="2" style="text-align:center;"| up to 237 kbit/s
+|}
+
+{| class="wikitable" style="float:left; margin-top:5px; margin-right:15px; line-height:1.2em;"
+|+ style="padding-bottom:1px;" |[[3G|Third generation (3G)]]&nbsp;<span style="font-weight:normal">from 2001:</span>
+|- style="font-style:italic; padding-top:1px; padding-bottom:1px; line-height:0.9em; font-size:90%;"
+|  style="font-weight:normal; border:solid 1px white; border-right:inherit; background:white; text-align:right;"|Speeds in Mbit/s
+! style="font-weight:normal; border-bottom:solid 1px #888888;" |down
+! style="font-weight:normal; border-bottom:solid 1px #888888;" |up
+|-
+| style="border:solid 1px white; border-right:inherit; background:white;"|{{·}} [[W-CDMA (UMTS)|UMTS W-CDMA]]
+| colspan="2" style="text-align:center;"|0.4 Mbit/s
+|-
+| style="border:solid 1px white; border-right:inherit; background:white;"|{{·}} [[High Speed Packet Access|UMTS HSPA]]
+|align=center | 14.4
+|align=center | 5.8
+|-
+| style="border:solid 1px white; border-right:inherit; background:white;"|{{·}} [[UMTS-TDD|UMTS TDD]]
+| colspan="2"  style="text-align:center; border-bottom:solid 1px #888888;"|16 Mbit/s
+|-
+| style="border:solid 1px white; border-right:inherit; background:white;"|{{·}} [[CDMA2000|CDMA2000 1xRTT]]
+|align=center | 0.3
+|align=center | 0.15
+|-
+| style="border:solid 1px white; border-right:inherit; background:white;"|{{·}} ''[[CDMA2000|CDMA2000 EV-DO]]''
+|style="border-bottom:solid 1px #888888;" |2.5–4.9
+|style="border-bottom:solid 1px #888888;" |0.15–1.8
+|-
+| style="border:solid 1px white; border-right:inherit; background:white;"|{{·}} [[Evolved EDGE|GSM EDGE-Evolution]]&nbsp;
+|align=center | 1.6
+|align=center | 0.5
+|}
+
+{| class="wikitable" style="float:left; width:auto; max-width:281px; margin-top:5px; margin-right:10px; line-height:1.3em;"
+|+ style="padding-bottom:1px;" |[[4G|Fourth generation (4G)]]&nbsp;<span style="font-weight:normal">from 2006:</span>
+|- style="font-style:italic; padding-top:1px; padding-bottom:1px; line-height:0.8em; font-size:90%;"
+| colspan="2"  style="font-weight:normal; border:solid 1px white; border-right:inherit; background:white; text-align:right;"|Speeds in Mbit/s
+! style="font-weight:normal;" |down
+! style="font-weight:normal;" |up
+|-
+| style="border:solid 1px white; background:white;"|{{·}}
+| style="border:solid 1px white; border-right:inherit; background:white;"|[[HSPA+]]
+| align=center |21–672
+| align=center nowrap |5.8–168
+|- valign=top
+| style="border:solid 1px white; background:white;"|{{·}}
+|  style="white-space:nowrap; border:solid 1px white; border-right:inherit; background:white;"|[[Mobile WiMAX]] (802.16)
+| align=center |37–365
+| align=center |17–376
+|-
+| style="border:solid 1px white; background:white;"|{{·}}
+| style="border:solid 1px white; border-right:inherit; background:white;"|[[3GPP Long Term Evolution|LTE]]
+| align=center nowrap |100–300
+| align=center |50–75
+|- valign=top
+| style="border:solid 1px white; background:white;"|{{·}}
+| style="border:solid 1px white; background:white; border-right:inherit;"|[[LTE-Advanced]]:
+|  style="text-align:center; white-space:nowrap;" colspan="2"|&nbsp;
+|- 
+| style="border:solid 1px white; background:white;"|&nbsp;
+| style="border:solid 1px white; border-right:inherit; background:white;"|{{·}} moving at higher speeds
+| style="text-align:center;" colspan="2"|100 Mbit/s
+|- 
+| style="border:solid 1px white; background:white;"|&nbsp;
+| style="border:solid 1px white; border-right:inherit; background:white;"|{{·}} not moving or moving at lower speeds
+| style="text-align:center;" colspan="2"|up to 1000 Mbit/s
+|- 
+| style="border:solid 1px white; background:white;"|{{·}}
+| style="border:solid 1px white; border-right:inherit; background:white;"|''[[IEEE 802.20|MBWA]] (802.20)''
+| style="text-align:center;" colspan="2"|80 Mbit/s
+|}
+{{clear|both}}
+The download (to the user) and upload (to the Internet) data rates given above are peak or maximum rates and end users will typically experience lower data rates.
+
+[[WiMAX]] was originally developed to deliver fixed wireless service with wireless mobility added in 2005. CDPD, CDMA2000 EV-DO, and MBWA are no longer being actively developed.
+
+In 2011, 90% of the world's population lived in areas with 2G coverage, while 45% lived in areas with 2G and 3G coverage.<ref name=ITU-ITCFacts>[http://www.itu.int/ITU-D/ict/facts/2011/material/ICTFactsFigures2011.pdf "The World in 2011: ITC Facts and Figures"] {{webarchive|url=https://web.archive.org/web/20120510070621/http://www.itu.int/ITU-D/ict/facts/2011/material/ICTFactsFigures2011.pdf |date=2012-05-10 }}, International Telecommunications Unions (ITU), Geneva, 2011</ref>
+
+====WiMAX====
+Worldwide Interoperability for Microwave Access ([[WiMAX]]) is a set of interoperable implementations of the [[IEEE 802.16]] family of wireless-network standards certified by the [[WiMAX Forum]]. WiMAX enables "the delivery of [[last mile]] wireless broadband access as an alternative to cable and DSL".<ref>{{cite web|url=http://www.wimaxforum.org/technology/ |title=WiMax Forum – Technology |accessdate=2008-07-22 |url-status=dead |archiveurl=https://web.archive.org/web/20080722062158/http://www.wimaxforum.org/technology/ |archivedate=2008-07-22 }}</ref> The original IEEE 802.16 standard, now called "Fixed WiMAX", was published in 2001 and provided 30 to 40 megabit-per-second data rates.<ref>{{cite web |url= http://www.itbusinessedge.com/cm/community/features/interviews/blog/speeding-up-wimax/?cs=40726 |title= Speeding Up WiMax |author= Carl Weinschenk |date= 16 April 2010 |work= IT Business Edge |quote= Today the initial WiMax system is designed to provide 30 to 40 megabit-per-second data rates. |accessdate= 31 August 2011 |url-status= live |archiveurl= https://web.archive.org/web/20110905081903/http://www.itbusinessedge.com/cm/community/features/interviews/blog/speeding-up-wimax/?cs=40726 |archivedate= 5 September 2011 }}</ref> Mobility support was added in 2005. A 2011 update provides data rates up to 1 Gbit/s for fixed stations. WiMax offers a metropolitan area network with a signal radius of about 50&nbsp;km (30 miles), far surpassing the 30-metre (100-foot) wireless range of a conventional [[Wi-Fi]] [[local area network]] (LAN). WiMAX signals also penetrate building walls much more effectively than Wi-Fi.
+
+====Wireless ISP====
+[[File:Wi-Fi Logo.svg|thumb|150px|Wi-Fi logo]]
+[[Wireless Internet service provider]]s (WISPs) operate independently of [[mobile phone operator]]s. WISPs typically employ low-cost IEEE 802.11 [[Wi-Fi]] radio systems to link up remote locations over great distances ([[Long-range Wi-Fi]]), but may use other higher-power radio communications systems as well.
+
+Traditional 802.11a/b/g/n/ac is an unlicensed omnidirectional service designed to span between 100 and 150&nbsp;m (300 to 500&nbsp;ft). By focusing the radio signal using a [[directional antenna]] (where allowed by regulations), 802.11 can operate reliably over a distance of many km(miles), although the technology's line-of-sight requirements hamper connectivity in areas with hilly or heavily foliated terrain. In addition, compared to hard-wired connectivity, there are security risks (unless robust security protocols are enabled); data rates are usually slower (2 to 50 times slower); and the network can be less stable, due to interference from other wireless devices and networks, weather and line-of-sight problems.<ref>{{cite book|title=Certified Wireless Network Administrator Official Study Guide|url=https://books.google.com/books?id=QnMunBGVDuMC&printsec=frontcover&dq=cwna+official+study+guide#v=onepage|author=Joshua Bardwell|author2=Devin Akin|page=418|publisher=[[McGraw-Hill]]|year=2005|edition=Third|isbn=978-0-07-225538-6|url-status=live|archiveurl=https://web.archive.org/web/20170109135240/https://books.google.com/books?id=QnMunBGVDuMC&printsec=frontcover&dq=cwna+official+study+guide&hl=en&ei=EJaXTpSaFMPSiALTu4HCDQ&sa=X&oi=book_result&ct=result&resnum=1&ved=0CDAQ6AEwAA#v=onepage&q&f=false|archivedate=2017-01-09}}</ref>
+
+With the increasing popularity of unrelated consumer devices operating on the same 2.4&nbsp;GHz band, many providers have migrated to the [[List of WLAN channels#5.C2.A0GHz .28802.11a.2Fh.2Fj.2Fn.2Fac.29.5B18.5D|5GHz ISM band]]. If the service provider holds the necessary spectrum license, it could also reconfigure various brands of off the shelf Wi-Fi hardware to operate on its own band instead of the crowded unlicensed ones. Using higher frequencies carries various advantages:
+* usually regulatory bodies allow for more power and using (better-) directional antennae,
+* there exists much more bandwidth to share, allowing both better throughput and improved coexistence,
+* there are less consumer devices that operate over 5&nbsp;GHz than on 2.4&nbsp;GHz, hence less interferers are present,
+* the shorter wavelengths propagate much worse through walls and other structure, so much less interference leaks outside of the homes of consumers.
+
+Proprietary technologies like [[Motorola Canopy]] & Expedience can be used by a WISP to offer wireless access to rural and other markets that are hard to reach using Wi-Fi or WiMAX. There are a number of companies that provide this service.<ref>[http://www.wispa.org/directories/member-directory "Member Directory"] {{webarchive|url=https://web.archive.org/web/20170220031021/http://www.wispa.org/Directories/Member-Directory |date=2017-02-20 }}, Wireless Internet Service Providers’ Association (WISPA), accessed 5 May 2012</ref>
+
+====Local Multipoint Distribution Service====
+[[Local Multipoint Distribution Service]] (LMDS) is a broadband wireless access technology that uses microwave signals operating between 26&nbsp;GHz and 29&nbsp;GHz.<ref>[http://www.cse.wustl.edu/~jain/cis788-99/ftp/lmds/index.html "Local Multipoint Distribution Service (LDMS)"] {{webarchive|url=https://web.archive.org/web/20121010031040/http://www.cse.wustl.edu/~jain/cis788-99/ftp/lmds/index.html |date=2012-10-10 }}, Vinod Tipparaju, November 23, 1999</ref> Originally designed for digital television transmission (DTV), it is conceived as a fixed wireless, point-to-multipoint technology for utilization in the last mile. Data rates range from 64 kbit/s to 155 Mbit/s.<ref>[http://www.angelfire.com/nd/ramdinchacha/DEC00.html "LMDS: Broadband Out of Thin Air "] {{webarchive|url=https://web.archive.org/web/20140415040102/http://www.angelfire.com/nd/ramdinchacha/DEC00.html |date=2014-04-15 }}, Niraj K Gupta, from My Cell, Voice & Data, December 2000</ref> Distance is typically limited to about {{convert|1.5|mi|km}}, but links of up to 5 miles (8&nbsp;km) from the base station are possible in some circumstances.<ref>[http://www.ijest.info/docs/IJEST09-01-01.pdf "Review and Analysis of Local Multipoint Distribution System (LMDS) to Deliver Voice, Data, Internet, and Video Services"], S.S. Riaz Ahamed, International Journal of Engineering Science and Technology, Vol. 1(1), October 2009, pp. 1–7</ref>
+
+LMDS has been surpassed in both technological and commercial potential by the LTE and WiMAX standards.
+
+===Hybrid Access Networks===
+{{See also |Hybrid Access Networks}}
+
+In some regions, notably in rural areas, the length of the copper lines makes it difficult for network operators to provide high bandwidth services. An alternative is to combine a fixed access network, typically [[XDSL]], with a wireless network, typically [[LTE (telecommunication)|LTE]]. The [[Broadband Forum]] has standardised an architecture for such [[Hybrid Access Networks]].
+
+===Non-commercial alternatives for using Internet services===
+{{See also |Project Loon}}
+
+====Grassroots wireless networking movements====
+Deploying multiple adjacent Wi-Fi access points is sometimes used to create [[Municipal wireless network|city-wide]] wireless networks.<ref>{{Citation | url = http://www.wi-fi.org/discover-and-learn | title = Discover and Learn | publisher = The Wi-Fi Alliance | accessdate = 6 May 2012 | url-status = dead | archiveurl = https://web.archive.org/web/20120510032811/http://www.wi-fi.org/discover-and-learn | archivedate = 10 May 2012 }}</ref> It is usually ordered by the local municipality from commercial WISPs.
+
+[[Grassroots]] efforts have also led to [[wireless community network]]s widely deployed at numerous countries, both developing and developed ones. Rural wireless-ISP installations are typically not commercial in nature and are instead a patchwork of systems built up by hobbyists mounting antennas on [[radio masts and towers]], agricultural [[storage silo]]s, very tall trees, or whatever other tall objects are available.
+
+Where radio spectrum regulation is not community-friendly, the channels are crowded or when equipment can not be afforded by local residents, [[Free-space optical communication#LEDs|free-space optical communication]] can also be deployed in a similar manner for point to point transmission in air (rather than in fiber optic cable).
+
+====Packet radio====
+{{Main |Packet radio|AMPRNet}}
+
+Packet radio connects computers or whole networks operated by radio amateurs with the option to access the Internet. Note that as per the regulatory rules outlined in the HAM license, Internet access and e-mail should be strictly related to the activities of hardware amateurs.
+
+====Sneakernet====
+{{Main |Sneakernet}}
+
+The term, a [[tongue-in-cheek]] play on ''net(work)'' as in ''[[Internet]]'' or ''[[Ethernet]]'', refers to the wearing of [[sneakers (footwear)|sneakers]] as the transport mechanism for the data.
+
+For those who do not have access to or can not afford broadband at home, downloading large files and disseminating information is done by transmission through workplace or library networks, taken home and shared with neighbors by sneakernet. The Cuban ''[[El Paquete Semanal]]'' is an organized example of this.
+
+There are various decentralized, [[Delay-tolerant networking|delay tolerant]] peer to peer applications which aim to fully automate this using any available interface, including both wireless (Bluetooth, Wi-Fi mesh, P2P or hotspots) and physically connected ones (USB storage, ethernet, etc.).
+
+Sneakernets may also be used in tandem with computer network data transfer to increase data security or overall throughput for big data use cases. Innovation continues in the area to this day, for example AWS has recently announced Snowball, and bulk data processing is also done in a similar fashion by many research institutes and government agencies
